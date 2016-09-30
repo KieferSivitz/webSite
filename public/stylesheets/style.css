@@ -10,15 +10,14 @@
 	color: white;
 }
 
+.body {
+	overflow-x: hidden;
+}
+
 .hero h1 {
 	text-shadow: 2px 2px black;
 }
 
-
-.sidePadding {
-	padding-left: 5px;
-	padding-right: 5px;
-}
 
 .bottomPadding {
 	height: 190px;
