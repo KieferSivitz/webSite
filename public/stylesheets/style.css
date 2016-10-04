@@ -14,8 +14,6 @@
 this solution does not address the element being out of bounds, and will still not function as intended on mobile devices */
 .overflow {
 	overflow-x: hidden;
-	margin-left: 0px;
-	margin-right: 0px;
 }
 
 .hero h1 {
@@ -52,4 +50,8 @@ hr.style14 {
 /* Text Colors */
 .whiteText {
 	color: #ffffff;
+}
+
+.container {
+	max-width: 100%;
 }
