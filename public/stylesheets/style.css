@@ -20,10 +20,6 @@ this solution does not address the element being out of bounds, and will still n
 	text-shadow: 2px 2px black;
 }
 
-body > .row {
-	margin-left: 0px;
-	margin-right: 0px;
-}
 
 .bottomPadding {
 	height: 12.5%;
