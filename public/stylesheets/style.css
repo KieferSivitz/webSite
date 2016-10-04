@@ -10,8 +10,12 @@
 	color: white;
 }
 
+/* The following code only removes the scrollbar and forces a fixed 100% width on desktop
+this solution does not address the element being out of bounds, and will still not function as intended on mobile devices */
 .overflow {
 	overflow-x: hidden;
+	margin-left: 0px;
+	margin-right: 0px;
 }
 
 .hero h1 {
