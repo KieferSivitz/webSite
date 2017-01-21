@@ -4,7 +4,7 @@
 	background-image: url('../images/bg-header.jpg');
 	background-position: center;
 	background-attachment: scroll;
-	background-repeat: no-repeat;
+	/*background-repeat: no-repeat;*/
 	padding-top: 22.5%;
 	padding-bottom: 22.5%;
 	color: white;
@@ -31,7 +31,7 @@
 
 .dark {
 	background-color: #646464;
-	height: 12.5%;
+	/*height: 12.5%;*/
 }
 
 
