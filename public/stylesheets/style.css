@@ -30,7 +30,8 @@ a {
 
 /* HERO */
 #top-hero .hero-title {
-	margin-top: 20%;
+	margin-top: 35%;
+	letter-spacing: 0.3em;
 	position: relative;
 }
 
