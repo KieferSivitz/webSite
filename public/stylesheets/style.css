@@ -1,40 +1,119 @@
 @import url("https://fonts.googleapis.com/css?family=Galada");
 
-.hero {
+a {
+	color: #B19CD9;
+	text-decoration: none;
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+#top-hero {
 	background-image: url('../images/bg-header.jpg');
+	background-size: cover;
 	background-position: center;
 	background-attachment: scroll;
-	/*background-repeat: no-repeat;*/
-	padding-top: 22.5%;
-	padding-bottom: 22.5%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 0;
+	max-height: 800px;
+	overflow: hidden;
+	padding-bottom: 68%;
 	color: white;
 }
 
-/* The following code only removes the scrollbar and forces a fixed 100% width on desktop
-this solution does not address the element being out of bounds, and will still not function as intended on mobile devices */
 .overflow {
 	overflow-x: hidden;
 }
 
-.hero h1 {
-	text-shadow: 2px 2px black;
+/* HERO */
+#top-hero .hero-title {
+	margin-top: 20%;
+	position: relative;
 }
 
-
-.bottomPadding {
-	height: 12.5%;
-}
 
 .projects h1 {
 	text-shadow: 2px 2px #ccc;
 }
 
 
+/* BACKGROUND COLORS */
+.main-bg { 
+	background-color: #AEC6CF;
+	color: #0e171c;
+}
+
 .dark {
-	background-color: #222222;
+	background-color: #B39EB5;
 	/*height: 12.5%;*/
 }
 
+/* CONTACT */
+.contact-title {
+	background-color: #f9fbfc;
+	text-align: center;
+	width: 98;
+	margin: 0 auto;
+	height: 200px;
+	padding: 20px;
+	position: relative;
+	z-index: 12;
+	transition: 0.5s all;
+}
+
+.contact-title:after {
+	content: '';
+	display: block;
+	width: 100%;
+	height: 0;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: 10;
+	-webkit-transition: all 0.5s;
+			transition: all 0.5s;
+	background-color: rgba(14, 23, 28, 0);
+}
+
+.contact-title:hover {
+	margin-top: -10px;
+	-webkit-transition: all 0.5s;
+			transition: all 0.5s;
+}
+
+.contact-tile:hover:after {
+  width: 90%;
+  left: 5%;
+  bottom: -10px;
+  height: 10px;
+  background-color: rgba(14, 23, 28, 0.25);
+}
+
+/*.contact-title h1:after {
+	content: '';
+	display: block;
+	margin:30px 0;
+	position: relative;
+	width: 84px;
+	left: 50%;
+	margin-left: -38px;
+	background-color: transparent;
+	background-image: url(../images/testing.png);
+	height: 8px;
+	background-repeat-y: no-repeat;
+	opacity: 0.3;
+}*/
+
+.row:before {
+	box-sizing: border-box;
+}
+
+.container:before {
+	box-sizing: border-box;
+}
 
 /* HR */
 hr.style14 { 
@@ -50,4 +129,32 @@ hr.style14 {
 /* Text Colors */
 .whiteText {
 	color: #ffffff;
+}
+
+.xlarge {
+	font-size: 5em;
+	text-shadow: 2px 2px black;
+}
+
+.container div:before {
+	box-sizing: border-box;
+}
+
+/* PADDING */
+.padding-sm {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.padding-md {
+	padding-top: 45px;
+	padding-bottom: 45px;
+}
+.padding-lg {
+	padding-top: 90px;
+	padding-bottom: 90px;
+}
+
+.bottomPadding {
+	height: 12.5%;
 }
