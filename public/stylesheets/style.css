@@ -28,6 +28,11 @@ a {
 	overflow-x: hidden;
 }
 
+/* WHO AM I */
+#who-am-i {
+	color: black;
+}
+
 /* HERO */
 #top-hero .hero-title {
 	margin-top: 25%;
@@ -48,7 +53,7 @@ a {
 }
 
 .dark {
-	background-color: #B39EB5;
+	background-color: #d3d3c2;
 	/*height: 12.5%;*/
 }
 
