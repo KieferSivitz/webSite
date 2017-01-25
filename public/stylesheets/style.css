@@ -70,7 +70,7 @@ a {
         	transition: 0.5s all;
 }
 
-@media(max-width: 71200px) {
+@media(max-width: 1200px) {
 	.contact-title {
 		margin-bottom: 20px;
 	}
