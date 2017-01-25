@@ -54,7 +54,6 @@ a {
 
 .dark {
 	background-color: #d3d3c2;
-	/*height: 12.5%;*/
 }
 
 /* CONTACT */
@@ -66,8 +65,15 @@ a {
 	height: 200px;
 	padding: 20px;
 	position: relative;
-	z-index: 12;
-	transition: 0.5s all;
+	z-index: 11;
+	-webkit-transition: 0.5s all;
+        	transition: 0.5s all;
+}
+
+@media(max-width: 71200px) {
+	.contact-title {
+		margin-bottom: 20px;
+	}
 }
 
 .contact-title:after {
@@ -90,12 +96,12 @@ a {
 			transition: all 0.5s;
 }
 
-.contact-tile:hover:after {
+.contact-title:hover:after {
   width: 90%;
   left: 5%;
   bottom: -10px;
   height: 10px;
-  background-color: rgba(14, 23, 28, 0.25);
+  background-color: rgba(14, 23, 28, 0.3);
 }
 
 /*.contact-title h1:after {
