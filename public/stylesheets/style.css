@@ -35,7 +35,7 @@ a {
 
 /* HERO */
 #top-hero .hero-title {
-	margin-top: 25%;
+	margin-top: 20%;
 	letter-spacing: 0.3em;
 	position: relative;
 }
@@ -144,7 +144,7 @@ hr.style14 {
 }
 
 .xlarge {
-	font-size: 5em;
+	font-size: 4em;
 	text-shadow: 2px 2px black;
 }
 
