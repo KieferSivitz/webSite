@@ -17,10 +17,8 @@ a {
 	background-attachment: scroll;
 	background-repeat: no-repeat;
 	width: 100%;
-	height: 0;
-	max-height: 800px;
 	overflow: hidden;
-	padding-bottom: 50%;
+	padding-bottom: 10%;
 	color: white;
 }
 
