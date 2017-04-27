@@ -26,10 +26,31 @@ a {
 	overflow-x: hidden;
 }
 
+
+
 /* WHO AM I */
 #who-am-i {
 	color: black;
 }
+
+.sand {
+	background-image: url('../images/sand.jpg');
+}
+
+.floating {
+	background-color: #00053f;
+	opacity: 0.6;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 5px;
+	width: 50%;
+	color: white;
+	font-size: 1.5em;
+}
+
+.floating .p {
+}
+
 
 /* HERO */
 #top-hero .hero-title {
@@ -45,7 +66,7 @@ a {
 
 
 /* BACKGROUND COLORS */
-.main-bg { 
+.main-bg {
 	background-color: #AEC6CF;
 	color: #0e171c;
 }
@@ -111,13 +132,13 @@ a {
 }
 
 /* HR */
-hr.style14 { 
-  border: 0; 
-  height: 1px; 
+hr.style14 {
+  border: 0;
+  height: 1px;
   background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
   background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
 }
 
 
@@ -154,14 +175,51 @@ hr.style14 {
 	height: 12.5%;
 }
 
-.sand {
-	background-image: url('../images/sand.jpg');
-}
 
+
+/* Footer Styling */
 .extra-dark {
 	background-color: #00053f
 }
 
 .footer {
 	padding-bottom: 30px;
+}
+
+
+
+/* Image Styling */
+.imageFrame {
+	border: 10px solid #3e2b14;
+	padding: 10px;
+}
+
+.summerMobile {
+	background-image: url('../images/summerMobile.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	overflow: hidden;
+}
+
+.appointmentScheduler {
+	background-image: url('../images/appointmentScheduler.png');
+	background-size: contain;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	overflow: hidden;
+}
+
+.exampleHome {
+	background-image: url('../images/home.png');
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	width: 100%;
+	overflow: hidden;
 }
