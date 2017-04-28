@@ -14,7 +14,7 @@ a {
 	background-image: url('../images/bg-header.jpg');
 	background-size: cover;
 	background-position: center;
-	background-attachment: scroll;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	width: 100%;
 	overflow: hidden;
@@ -27,6 +27,11 @@ a {
 }
 
 
+/* Section Styling */
+
+.sectionShadow {
+	/*box-shadow: inset 0 -4px 3px 0 #00053f;*/
+}
 
 /* WHO AM I */
 #who-am-i {
@@ -34,7 +39,9 @@ a {
 }
 
 .sand {
-	background-image: url('../images/sand.jpg');
+	background-image: url('../images/bg-header.jpg');
+	background-attachment: fixed;
+	background-position: top;
 }
 
 .floating {
@@ -46,9 +53,7 @@ a {
 	width: 50%;
 	color: white;
 	font-size: 1.5em;
-}
-
-.floating .p {
+	border-radius: 10px;
 }
 
 
@@ -81,9 +86,8 @@ a {
 	text-align: center;
 	width: 98;
 	margin: 0 auto;
-	height: 200px;
+	height: 250px;
 	padding: 20px;
-	position: relative;
 	z-index: 11;
 	-webkit-transition: 0.5s all;
         	transition: 0.5s all;
@@ -93,6 +97,10 @@ a {
 	.contact-title {
 		margin-bottom: 20px;
 	}
+}
+
+#contact-information .contact-title {
+	border-radius: 10px;
 }
 
 .contact-title:after {
@@ -184,6 +192,7 @@ hr.style14 {
 
 .footer {
 	padding-bottom: 30px;
+	font-size: 1.3em;
 }
 
 
@@ -194,6 +203,8 @@ hr.style14 {
 	padding: 10px;
 }
 
+
+/* Current Projects */
 .summerMobile {
 	background-image: url('../images/summerMobile.png');
 	background-size: cover;
@@ -222,4 +233,8 @@ hr.style14 {
 	background-repeat: no-repeat;
 	width: 100%;
 	overflow: hidden;
+}
+
+.exampleDescription {
+	padding-top: 280px;
 }
