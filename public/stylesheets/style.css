@@ -47,12 +47,12 @@ a {
 .floating {
 	background-color: #00053f;
 	opacity: 0.6;
-	margin-left: 25%;
-	margin-right: 25%;
+	align-self: center;
+	margin-top: 5px;
 	padding: 5px;
-	width: 50%;
+	width: 100%;
 	color: white;
-	font-size: 1.5em;
+	font-size: 1.4em;
 	border-radius: 10px;
 }
 
@@ -103,7 +103,7 @@ a {
 	border-radius: 10px;
 }
 
-#contact-information .contact-title:after {
+.contact-title:after {
 	content: '';
 	display: block;
 	width: 100%;
@@ -117,18 +117,22 @@ a {
 	background-color: rgba(14, 23, 28, 0);
 }
 
-#contact-information .contact-title:hover {
+.contact-title:hover {
 	margin-top: -10px;
 	-webkit-transition: all 0.5s;
 			transition: all 0.5s;
 }
 
-#contact-information .contact-title:hover:after {
+.contact-title:hover:after {
   width: 90%;
   left: 5%;
   bottom: -10px;
   height: 10px;
   background-color: rgba(14, 23, 28, 0.3);
+}
+
+.contact-title a, p {
+	font-size:  1.5em;
 }
 
 .row:before {
@@ -204,7 +208,15 @@ hr.style14 {
 }
 
 
-/* Current Projects */
+#current-projects p {
+	font-size: 1.2em;
+}
+
+#current-projects hr {
+	border-color: black;
+}
+
+
 .summerMobile {
 	background-image: url('../images/summerMobile.png');
 	background-size: cover;
