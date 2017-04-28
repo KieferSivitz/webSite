@@ -48,9 +48,8 @@ a {
 	background-color: #00053f;
 	opacity: 0.6;
 	align-self: center;
-	margin-top: 5px;
-	padding: 5px;
 	width: 100%;
+	padding: 8px 2px 2px 2px;
 	color: white;
 	font-size: 1.4em;
 	border-radius: 10px;
@@ -103,6 +102,12 @@ a {
 	border-radius: 10px;
 }
 
+
+#contact-information .contact-title:hover::after {
+	border-radius: 0 0 10px 10px;
+}
+
+
 .contact-title:after {
 	content: '';
 	display: block;
@@ -124,11 +129,11 @@ a {
 }
 
 .contact-title:hover:after {
-  width: 90%;
-  left: 5%;
-  bottom: -10px;
-  height: 10px;
-  background-color: rgba(14, 23, 28, 0.3);
+	width: 90%;
+	left: 5%;
+	bottom: -10px;
+	height: 10px;
+	background-color: rgba(14, 23, 28, 0.3);
 }
 
 .contact-title a, p {
