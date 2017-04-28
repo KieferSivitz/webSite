@@ -103,7 +103,7 @@ a {
 	border-radius: 10px;
 }
 
-.contact-title:after {
+#contact-information .contact-title:after {
 	content: '';
 	display: block;
 	width: 100%;
@@ -117,13 +117,13 @@ a {
 	background-color: rgba(14, 23, 28, 0);
 }
 
-.contact-title:hover {
+#contact-information .contact-title:hover {
 	margin-top: -10px;
 	-webkit-transition: all 0.5s;
 			transition: all 0.5s;
 }
 
-.contact-title:hover:after {
+#contact-information .contact-title:hover:after {
   width: 90%;
   left: 5%;
   bottom: -10px;
@@ -236,5 +236,5 @@ hr.style14 {
 }
 
 .exampleDescription {
-	padding-top: 280px;
+	padding-top: 20px;
 }
