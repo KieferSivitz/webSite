@@ -70,7 +70,7 @@ a {
 
 /* BACKGROUND COLORS */
 .main-bg {
-	background-color: #AEC6CF;
+	background-color: #d7e4eb;
 	color: #0e171c;
 }
 
@@ -188,7 +188,7 @@ hr.style14 {
 }
 
 .bottomPadding {
-	height: 12.5%;
+	padding-bottom: 45px;
 }
 
 
