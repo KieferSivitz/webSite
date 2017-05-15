@@ -222,7 +222,6 @@ hr.style14 {
 
 
 .summerMobile {
-	background-image: url('../images/mobile-dashboard-ipad-field-engineer-form-messages.png');
 	background-size: cover;
 	background-position: center;
 	background-attachment: scroll;
@@ -232,8 +231,7 @@ hr.style14 {
 }
 
 .appointmentScheduler {
-	background-image: url('../images/appointmentScheduler.png');
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
@@ -242,18 +240,7 @@ hr.style14 {
 }
 
 .contentAggregator {
-	background-image: url('../images/content-aggregator-twitter-twitch.png');
-	background-size: cover;
-	background-position: center;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	width: 100%;
-	overflow: hidden;
-}
-
-.exampleHome {
-	background-image: url('../images/home.png');
-	background-size: cover;
+	background-size: contain;
 	background-position: center;
 	background-attachment: scroll;
 	background-repeat: no-repeat;
