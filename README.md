@@ -10,6 +10,6 @@
 
 
 
-### Get at us:
+### Get at me:
 
-If you would like to contact us about work please do so!
+If you would like to contact me about work please do so!
