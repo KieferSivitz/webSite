@@ -1,9 +1,21 @@
 
-#top-hero {
-	background-image: url('../images/bg-header.jpg');
+#maincontent {
+	background-image: url('../img/bg-header.jpg') !important;
+	background-size: cover;
+	width: 100%;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#contact {
+	background-image: url('../img/toms.jpg') !important;
+	width: 100%;
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	overflow: hidden;
+	color: white !important;
 }
