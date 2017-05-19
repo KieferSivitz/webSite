@@ -14,6 +14,6 @@
 
 If you would like to contact me about work please do so!
 
-======
+***
 
 Project Descriptions Go here
