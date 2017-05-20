@@ -1,9 +1,21 @@
+
 <p class="title-p">
-    Check out my latest projects!
+    Who am I?
 </p>
 
-If you would like to contact me about any work you might want done please do so! 
-My email is kmsivitz@gmail.com
+I am a Full Stack Javascript Developer in Tampa, Florida
+
+
+<p class="title-p">
+    Contact Me
+</p>
+
+If you would like to contact me about any work you might want done [email me](mailto:kmsivitz@gmail.com)
+
+
+<p class="title-p">
+    Check out my past projects
+</p>
 
 ***
 
