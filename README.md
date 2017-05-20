@@ -22,7 +22,7 @@ to have to arrange windows to get Twitter and Twitch and however many other site
 
 This project was a school project for a Software Engineering course. The goal of it was to create a simplified interface for users to schedule appointments using google calendar for a barbershop. Currently the create events feature requires a login with a verified gmail account to cut down on spam.
 
-<a href="http://bit.ly/2qfe3UL">
+<a href="http://bit.ly/2pcqnGN">
     <img class="" src="img/portfolio/appointmentScheduler.png">
 </a>
 
@@ -32,7 +32,7 @@ This project was a school project for a Software Engineering course. The goal of
 
 This project was created while I was working at a startup in Tampa working on creating an iPad friendly web application for field engineers to view and respond to messages, track projects and other workers, and fill out and submit any relevant forms
 
-<a href="http://bit.ly/2pcqnGN">
+<a href="http://bit.ly/2qfe3UL">
     <img class="" src="img/portfolio/mobile-dashboard-ipad-field-engineer-form-messages.png">
 </a>
 
