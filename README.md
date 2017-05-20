@@ -11,7 +11,9 @@ Content Homepage is a project that aims to bring many different functions across
 I started this project because I like to watch livesteams but the chat is too hard to follow and it was annoying
 to have to arrange windows to get Twitter and Twitch and however many other sites I wanted open. The solution was to make a web site to aggregate all of the content I wanted onto one page. 
 
-![Content Homepage](img/portfolio/content-aggregator-twitter-twitch.png)
+<a href="www.contenthomepage.com">
+    <img class="" src="img/portfolio/content-aggregator-twitter-twitch.png">
+</a>
 
 
 ***
