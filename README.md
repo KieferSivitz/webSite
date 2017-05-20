@@ -2,19 +2,18 @@
 
 ## Kiefer Sivitz
 <div class="top-hero">
-    <img class="img-circle" src="img/person2.jpg" alt="">
+    <img class="img-circle img-medium" src="img/person2.jpg">
     <br />
     <span class="skills">I am a Web Developer and I own a picture of some seagulls</span>
 </div>
 
 
 
+## Check out my latest projects!:
 
-### Get at me:
+If you would like to contact me about work please do so! 
+My email is kmsivitz@gmail.com
 
-If you would like to contact me about work please do so!
-
-***
 
 Content Homepage
 ![Content Homepage](img/portfolio/content-aggregator-twitter-twitch.png)
