@@ -1,4 +1,6 @@
-## Check out my latest projects!
+<p class="title-p">
+    Check out my latest projects!
+</p>
 
 If you would like to contact me about work please do so! 
 My email is kmsivitz@gmail.com
