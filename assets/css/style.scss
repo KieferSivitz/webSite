@@ -3,10 +3,16 @@
 
 @import "{{ site.theme }}";
 
+
+
+#main-content {
+    text-align: center;
+}
+
+/* Image Styling */
 .img-circle {
     border-radius: 50%;
 }
-
 
 .img-rounded {
     border-radius: 5%;
@@ -17,12 +23,8 @@
     height: 128px;
 }
 
-#main-content {
-    text-align: center;
-}
-
-.header-image {
-    position: absolute;
-    top: 0;
-    right: 0;
+/* Table Styling */
+.table {
+    border: none;
+    width: 100%;
 }
