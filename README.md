@@ -1,6 +1,6 @@
 
 <p class="title-p">
-    Who am I?
+    About Me
 </p>
 
 I am a Full Stack Javascript Developer in Tampa, Florida
@@ -10,11 +10,11 @@ I am a Full Stack Javascript Developer in Tampa, Florida
     Contact Me
 </p>
 
-If you would like to contact me about any work you might want done [email me](mailto:kmsivitz@gmail.com)
+If you would like to contact me about any work you might want done <a href="mailto:kmsivitz@gmail.com">email me.</a>
 
 
 <p class="title-p">
-    Check out my past projects
+    Projects Past and Present
 </p>
 
 ***
