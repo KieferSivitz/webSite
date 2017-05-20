@@ -24,6 +24,10 @@
 }
 
 /* Table Styling */
-table td {
+table tr td {
+    border: none !important;
+}
+
+.table {
     border: none !important;
 }
