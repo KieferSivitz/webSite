@@ -6,46 +6,52 @@
 
 
 #main-content {
-    text-align: center;
+  text-align: center;
 }
 
 /* Image Styling */
 .img-circle {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .img-rounded {
-    border-radius: 5%;
+  border-radius: 5%;
 }
 
 .img-medium {
-    width: 128px;
-    height: 128px;
+  width: 128px;
+  height: 128px;
 }
 
 /* Table Styling */
 table tr td {
-    border: none !important;
+  border: none !important;
 }
 
 .table {
-    border: none !important;
+  border: none !important;
 }
 
 /* */
 
 .title-p {
-    font-size: 1.4em;
-    font-weight: bold;
+  font-size: 1.4em;
+  font-weight: bold;
 }
 
 .subtitle-p {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-decoration: underline;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 .list {
-    font-size: 1.2em;
-    line-height: 1.5;
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.list-heading {
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.5;
 }
