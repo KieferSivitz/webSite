@@ -4,6 +4,17 @@
 
 ***
 
+**Messersmith Films**
+
+The goal of this project was to do a full site rebuild using content from the old web site hosted on Squarespace with an extra bit of customization that wasn't available to the client on Squarespace.
+
+<a href="https://runningwagon.github.io/MessersmithFilms/">
+    <img class="" src="img/portfolio/appointmentScheduler.png">
+</a>
+
+
+***
+
 **Content Homepage**
 
 Content Homepage is a project that aims to bring many different functions across web sites onto one page.
