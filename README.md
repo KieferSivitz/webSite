@@ -8,8 +8,8 @@
 
 The goal of this project was to do a full site rebuild using content from the old web site hosted on Squarespace with an extra bit of customization that wasn't available to the client on Squarespace.
 
-<a href="https://runningwagon.github.io/MessersmithFilms/">
-    <img class="" src="img/portfolio/appointmentScheduler.png">
+<a href="https://runningwagon.github.io/messersmithFilms/">
+    <img class="" src="img/portfolio/messersmithFilms.png">
 </a>
 
 
