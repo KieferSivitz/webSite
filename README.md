@@ -22,7 +22,7 @@ I started this project because I like to watch livesteams but the chat is too ha
 to have to arrange windows to get Twitter and Twitch and however many other sites I wanted open.
 
 <a href="http://www.contenthomepage.com">
-    <img class="" src="img/portfolio/content-aggregator-twitter-twitch.png">
+    <img class="" src="img/portfolio/contentHomepage.png">
 </a>
 
 
