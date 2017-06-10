@@ -4,6 +4,17 @@
 
 ***
 
+**Rayel Development**
+
+Rayel is the company under which my business partner and I will be accepting contracts for consulting work.
+
+<a href="https://runningwagon.github.io/consultingSite/">
+    <img class="" src="img/portfolio/rayel.PNG">
+</a>
+
+
+***
+
 **Messersmith Films**
 
 The goal of this project was to do a full site rebuild using content from the old web site hosted on Squarespace with an extra bit of customization that wasn't available to the client on Squarespace.
