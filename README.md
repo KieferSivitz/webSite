@@ -9,7 +9,7 @@
 Rayel is the company under which my business partner and I will be accepting contracts for consulting work.
 
 <a href="https://runningwagon.github.io/consultingSite/">
-    <img class="" src="img/portfolio/rayel.PNG">
+    <img class="" src="img/portfolio/rayel.PNG" alt="Link to Web Development Contracting Site">
 </a>
 
 
@@ -19,8 +19,8 @@ Rayel is the company under which my business partner and I will be accepting con
 
 The goal of this project was to do a full site rebuild using content from the old web site hosted on Squarespace with an extra bit of customization that wasn't available to the client on Squarespace.
 
-<a href="https://runningwagon.github.io/MessersmithFilms/">
-    <img class="" src="img/portfolio/messersmithFilms.PNG">
+<a href="https://messersmithfilms.com/">
+    <img class="" src="img/portfolio/messersmithFilms.PNG" alt="Link to Tampa video production company web site">
 </a>
 
 
@@ -33,7 +33,7 @@ I started this project because I like to watch livesteams but the chat is too ha
 to have to arrange windows to get Twitter and Twitch and however many other sites I wanted open.
 
 <a href="http://www.contenthomepage.com">
-    <img class="" src="img/portfolio/contentHomepage.PNG">
+    <img class="" src="img/portfolio/contentHomepage.PNG" alt="Link to a content aggregation web site">
 </a>
 
 
