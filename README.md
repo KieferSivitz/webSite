@@ -36,13 +36,3 @@ This project was a school project for a Software Engineering course. The goal of
     <img class="" src="img/portfolio/appointmentScheduler.png">
 </a>
 
-***
-
-**Field Engineer Dashboard**
-
-This project was created while I was working at a startup in Tampa. This was a prototype of an iPad friendly web application for field engineers to view and respond to messages, track projects and other workers, and fill out and submit any relevant forms
-
-<a href="http://bit.ly/2qfe3UL">
-    <img class="" src="img/portfolio/mobile-dashboard-ipad-field-engineer-form-messages.png">
-</a>
-
