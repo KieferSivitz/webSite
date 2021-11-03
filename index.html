@@ -1,9 +1,47 @@
 <html style="background-color: black">
     <head>
         <title>Hey!</title>
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
         <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+        <script>
+            var count = 200;
+            var defaults = {
+              origin: { y: 0.7 }
+            };
+
+            function fire(particleRatio, opts) {
+              confetti(Object.assign({}, defaults, opts, {
+                particleCount: Math.floor(count * particleRatio)
+              }));
+            }
+            
+            function buttonClick() {
+                fire(0.25, {
+                  spread: 42,
+                  startVelocity: 42,
+                });
+                fire(0.2, {
+                  spread: 69,
+                });
+                fire(0.35, {
+                  spread: 100,
+                  decay: 0.91,
+                  scalar: 0.8
+                });
+                fire(0.1, {
+                  spread: 169,
+                  startVelocity: 25,
+                  decay: 0.92,
+                  scalar: 1.2
+                });
+                fire(0.1, {
+                  spread: 169,
+                  startVelocity: 42,
+                });
+            }
+        </script>
     </head>
-        <body style="display:flex">
-                <img src="smiley.png" style="margin: 0 auto; max-width: 100%; max-height: 100%; object-fit: contain">
-        </body>
+    <body style="display:flex">
+        <input type="image" src="smiley.png" style="margin: 0 auto; max-width: 100%; max-height: 100%; object-fit: contain" onclick="buttonClick()" />
+    </body>
 </html>
